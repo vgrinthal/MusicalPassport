@@ -1,0 +1,25 @@
+    
+div > h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    text-align: center;
+    color: purple;
+    
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.flex-container > ul {
+    list-style: none;
+}
+
+.flex-item {
+    padding: 10%;
+    margin-top: 5%;
+    margin-right: 5%;
+    box-shadow: .5ch .75ch 1.25ch 1.25ch purple;
+}
