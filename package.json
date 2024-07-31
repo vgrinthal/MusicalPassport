@@ -4,7 +4,7 @@
     "react-router": "^6.23.1",
     "react-router-dom": "^6.23.1",
     "react-select": "^5.8.0",
-    "homepage": "https.vgrinthal.github.io/MusicalPassport"
+    "homepage": "https.vgrinthal.github.io/MyMusicalPassport"
   },
   "scripts": {
     "start": "react-scripts start",
