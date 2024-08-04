@@ -6,8 +6,8 @@ function AddAShow() {
     const [newShow, addNewShow] = useState({
         id: 1,
         show: "",
-        showType: showTypes[0],
-        theatre: theatres[0],
+        showType: showTypes.value,
+        theatre: theatres.value,
         seenOn: "",
         stars: 0,
     });
@@ -21,7 +21,7 @@ function AddAShow() {
      };
 
      const handleType = (e) => {
-        addNewShow({...newShow, showType: e.target.value})
+        addNewShow({...newShow, showType: showTypes[e.target.value]})
      };
 
      const handleTheatre = (e) => {
@@ -55,10 +55,10 @@ function AddAShow() {
         </div>
         <div className="TextField">
             <label>Show Name:<br />
-            <input 
+            <input
                 type="text"
                 name="show"
-                value={newShow.show} 
+                value={newShow.show}
                 onChange={handleName}
                 placeholder="enter show name" />
             </label>
