@@ -5,7 +5,7 @@ function ListShows(props) {
             <div className="flex-item">
             <b>Show #{seenOnBway.id}: "{seenOnBway.show}"</b><br />
             <ul><li>Show Type: {seenOnBway.showType}</li>
-            <li>Theatre: {seenOnBway.theatre}</li>
+            <li>Theatre: {seenOnBway.theatre} Theatre</li>
             <li>Date Seen: {seenOnBway.seenOn}</li>
             <li>Rating: {seenOnBway.stars}/5 stars</li>
             </ul></div></li>

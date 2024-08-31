@@ -1,16 +1,29 @@
+import React from 'react';
+
+class showRecord extends React.Component{
+    showRecord = (Id, show, showType, theatre, seenOn, stars) => {
+        this.Id = Id;
+        this.show = show;
+        this.showType = showType;
+        this.theatre = theatre;
+        this.seenOn = seenOn;
+        this.stars = stars;
+    }
+};
+
 export const seenOnBway = [
     {
     id: 1,
     show: "The Lion King",
-    showType: "musical",
+    showType: "Musical",
     theatre: "Minskoff Theatre",
     seenOn: "10/02/2008",
-    stars: "5",
+    stars: 5,
     },
     {
     id: 2,
     show: "Mary Poppins",
-    showType: "musical",
+    showType: "Musical",
     theatre: "New Amsterdam Theatre",
     seenOn: "2009 approx.",
     stars: "N/A"
@@ -40,7 +53,7 @@ export const seenOnBway = [
     stars: "4",
     },
     {
-    id: 6,    
+    id: 6,
     show: "Matilda",
     showType: "musical",
     theatre: "Sam S. Shubert Theatre",
@@ -53,7 +66,7 @@ export const seenOnBway = [
     showType: "musical",
     theatre: "Bernard B. Jacobs Theatre",
     seenOn: "06/16/2014",
-    stars: "3",   
+    stars: "3",
     },
     {
     id: 8,

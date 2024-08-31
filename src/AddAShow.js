@@ -4,10 +4,10 @@ import {showTypes, theatres} from "./seenOnBway";
 
 function AddAShow() {
     const [newShow, addNewShow] = useState({
-        id: 1,
+        id: 0,
         show: "",
-        showType: showTypes.value,
-        theatre: theatres.value,
+        showType: "",
+        theatre: "",
         seenOn: "",
         stars: 0,
     });
@@ -21,11 +21,11 @@ function AddAShow() {
      };
 
      const handleType = (e) => {
-        addNewShow({...newShow, showType: showTypes[e.target.value]})
+        addNewShow({...newShow, showType: e.value})
      };
 
      const handleTheatre = (e) => {
-        addNewShow({...newShow, theatre: e.target.value})
+        addNewShow({...newShow, theatre: e.value})
      };
 
      const handleDate = (e) => {
@@ -38,6 +38,7 @@ function AddAShow() {
 
      const handleSubmit = (e) => {
         e.preventDefault();
+        //ListShows(newShow);
         console.log(newShow);
     };
 
@@ -66,7 +67,7 @@ function AddAShow() {
         <div className="SelectField">
             <label>Show Type:<br />
             <Select
-               name="showType"
+               source="showType"
                options={showTypes}
                onChange={handleType}
                defaultValue={showTypes[0]} />
