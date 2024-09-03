@@ -1,6 +1,6 @@
 import {useState} from 'react';
 import Select from "react-select";
-import {showTypes, theatres} from "./seenOnBway";
+import {seenOnBway, showTypes, theatres} from "./seenOnBway";
 
 function AddAShow() {
     const [newShow, addNewShow] = useState({
@@ -38,8 +38,10 @@ function AddAShow() {
 
      const handleSubmit = (e) => {
         e.preventDefault();
-        //ListShows(newShow);
+        const pastShows = [...seenOnBway];
+        pastShows.push(newShow);
         console.log(newShow);
+        //console.log(pastShows);
     };
 
     return (
