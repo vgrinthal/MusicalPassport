@@ -173,7 +173,7 @@ export const seenOnBway = [
     showType: "musical",
     theatre: "New Amsterdam",
     seenOn: "01/30/2022",
-    stars: 4.75,    
+    stars: 4.75,
     },
     {
     id: 23,
@@ -197,7 +197,7 @@ export const seenOnBway = [
     showType: "musical",
     theatre: "Music Box",
     seenOn: "07/22/2022",
-    stars: 4.5,    
+    stars: 4.5,
     },
     {
     id: 26,
