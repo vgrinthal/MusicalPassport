@@ -223,6 +223,22 @@ export const seenOnBway = [
     seenOn: "11/15/2023",
     stars: 3.5
     },
+    {
+    id: 29,
+    show: "& Juliet",
+    showType: "musical",
+    theatre: "Stephen Sondheim",
+    seenOn: "10/20/2024",
+    stars: 4
+    },
+    {
+    id: 28,
+    show: "Stereophonic",
+    showType: "play",
+    theatre: "John Golden",
+    seenOn: "11/17/2024",
+    stars: 4.25
+    }
 ];
 
 export const showTypes = [

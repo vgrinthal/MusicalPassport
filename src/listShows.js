@@ -13,4 +13,4 @@ function ListShows(props) {
     });
     return <ul>{showList}</ul>;
 }
-export default ListShows;
+export default ListShows
