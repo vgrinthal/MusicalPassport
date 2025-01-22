@@ -1,2 +1,38 @@
-h1{font-family:Cambria,Cochin,Georgia,Times,Times New Roman,serif;text-align:center}body{background-color:#7fee90}body,div>h2{color:purple}div>h2{font-family:Cambria,Cochin,Georgia,Times,Times New Roman,serif;font-weight:lighter;text-align:center}.flex-container{display:flex;flex-direction:column;width:100%}.flex-container>ul{list-style:none}.flex-item{box-shadow:.5ch .75ch 1.25ch 1.25ch purple;margin-right:5%;margin-top:5%;padding:10%}
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align: center
+}
+
+body {
+    background-color: #7fee90
+}
+
+body,
+div>h2 {
+    color: purple
+}
+
+div>h2 {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-weight: lighter;
+    text-align: center
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.flex-container>ul {
+    list-style: none
+}
+
+.flex-item {
+    box-shadow: .5ch .75ch 1.25ch 1.25ch purple;
+    margin-right: 5%;
+    margin-top: 5%;
+    padding: 10%
+}
+
 /*# sourceMappingURL=main.f6879197.css.map*/
