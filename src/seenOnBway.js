@@ -93,7 +93,7 @@ export const seenOnBway = [
     showType: "musical",
     theatre: "Stephen Sondheim",
     seenOn: "01/05/2019",
-    stars: 4,  
+    stars: 4,
     },
     {
     id: 13,
@@ -117,7 +117,7 @@ export const seenOnBway = [
     showType: "musical",
     theatre: "Winter Garden",
     seenOn: "10/13/2019",
-    stars: 3.5,   
+    stars: 3.5,
     },
     {
     id: 16,
@@ -125,7 +125,7 @@ export const seenOnBway = [
     showType: "musical",
     theatre: "St. James",
     seenOn: "01/12/2020",
-    stars: 4,    
+    stars: 4,
     },
     {
     id: 17,
@@ -141,7 +141,7 @@ export const seenOnBway = [
     showType: "improv",
     theatre: "Booth",
     seenOn: "10/30/2021",
-    stars: 4,    
+    stars: 4,
     },
     {
     id: 19,
@@ -149,7 +149,7 @@ export const seenOnBway = [
     showType: "improv",
     theatre: "Booth",
     seenOn: "11/06/2021",
-    stars: 5,    
+    stars: 5,
     },
     {
     id: 20,
@@ -232,12 +232,20 @@ export const seenOnBway = [
     stars: 4
     },
     {
-    id: 28,
+    id: 30,
     show: "Stereophonic",
     showType: "play",
     theatre: "John Golden",
     seenOn: "11/17/2024",
     stars: 4.25
+    },
+    {
+        id: 31,
+        show: "Back to the Future: The Musical",
+        showType: "musical",
+        theatre: "Winter Garden",
+        seenOn: "12/01/2024",
+        stars: 3.25
     }
 ];
 
