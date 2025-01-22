@@ -4,7 +4,7 @@
     "react-router": "^6.23.1",
     "react-router-dom": "^6.23.1",
     "react-select": "^5.8.0",
-    "homepage": "."
+    "homepage": "https://vgrinthal.github.io/MyMusicalPassport"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -12,7 +12,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "MusicalPassport -d build"
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
